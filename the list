@@ -1,0 +1,13 @@
+>>> classmates=['Michael','jackie','sophie']
+>>> print('classmates=',classmates)
+classmates= ['Michael', 'jackie', 'sophie']
+>>> print('len(classmates)=',len(classmates))
+len(classmates)= 3
+>>> print('classmates[0]=',classmates[0])
+classmates[0]= Michael
+>>> print('classmates[2]=',classmates[2])
+classmates[2]= sophie
+>>> classmates.pop()
+'sophie'
+>>> classmates
+['Michael', 'jackie']
