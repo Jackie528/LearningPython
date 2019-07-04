@@ -1,0 +1,17 @@
+>>> classmates=('Michael','Bob','Tracy')
+>>> print('classmates=',classmates)
+classmates= ('Michael', 'Bob', 'Tracy')
+>>> print('len(classmates)=',len(classmates))
+len(classmates)= 3
+>>> print('classmates[0]=',classmates[0])
+classmates[0]= Michael
+>>> print('classmates[2]=',classmates[2])
+classmates[2]= Tracy
+>>> print('classmates[-1]=',classmates[-1])
+classmates[-1]= Tracy
+>>>
+#tuple cannot modify
+>>> classmates[0]='adam'
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'tuple' object does not support item assignment
