@@ -1,0 +1,17 @@
+input()返回的数据类型是str，str不能直接和整数比较，必须先把str转换成整数。Python提供了int()函数来完成这件事情：
+>>> d={
+... 'Michael':95,
+... 'Bob':75,
+... 'Tracy':85
+... }
+
+>>> print('d[\'Michael\']=',d['Michael'])
+d['Michael']= 95
+>>> print('d[\'Bob\']=',d['Bob'])
+d['Bob']= 75
+>>> print('d[\'Tracy\']=',d['Tracy'])
+d['Tracy']= 85
+
+#dict提供的get()方法，如果key不存在，可以返回None，或者自己指定的value：
+>>> print('d.get(\'Thomas\',-1)=',d.get('Thomas',-1))
+d.get('Thomas',-1)= -1
